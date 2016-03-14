@@ -1,0 +1,27 @@
+﻿Build started 9.9.2015 10:01:15.
+     1>Project "E:\Ohjelmoinnin harkkatyöt\harjoitustyö_brutal_rpg final\harjoitustyö_brutal_rpg.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt archive.cpp "cast harjoitus.cpp" combat.cpp damagecount.cpp diceroll.cpp main.cpp menu.cpp storyprogression.cpp
+         storyprogression.cpp
+         menu.cpp
+     1>e:\ohjelmoinnin harkkatyöt\harjoitustyö_brutal_rpg final\menu.cpp(17): error C2059: syntax error: '}'
+     1>e:\ohjelmoinnin harkkatyöt\harjoitustyö_brutal_rpg final\menu.cpp(22): error C2039: 'cout': is not a member of 'std::basic_ifstream<char,std::char_traits<char>>'
+     1>e:\ohjelmoinnin harkkatyöt\harjoitustyö_brutal_rpg final\menu.cpp(25): error C2039: 'input': is not a member of 'std::basic_ifstream<char,std::char_traits<char>>'
+         main.cpp
+         diceroll.cpp
+     1>e:\ohjelmoinnin harkkatyöt\harjoitustyö_brutal_rpg final\diceroll.cpp(8): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+         damagecount.cpp
+     1>e:\ohjelmoinnin harkkatyöt\harjoitustyö_brutal_rpg final\damagecount.cpp(20): warning C4804: '<': unsafe use of type 'bool' in operation
+         combat.cpp
+         cast harjoitus.cpp
+         archive.cpp
+         Generating Code...
+     1>e:\ohjelmoinnin harkkatyöt\harjoitustyö_brutal_rpg final\archive.cpp(47): warning C4715: 'archive': not all control paths return a value
+     1>e:\ohjelmoinnin harkkatyöt\harjoitustyö_brutal_rpg final\combat.cpp(88): warning C4715: 'combat': not all control paths return a value
+     1>e:\ohjelmoinnin harkkatyöt\harjoitustyö_brutal_rpg final\damagecount.cpp(25): warning C4715: 'damageCount': not all control paths return a value
+     1>e:\ohjelmoinnin harkkatyöt\harjoitustyö_brutal_rpg final\storyprogression.cpp(144): warning C4715: 'storyProgression': not all control paths return a value
+     1>Done Building Project "E:\Ohjelmoinnin harkkatyöt\harjoitustyö_brutal_rpg final\harjoitustyö_brutal_rpg.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:19.67
